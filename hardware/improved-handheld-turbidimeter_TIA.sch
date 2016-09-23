@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -140,23 +140,23 @@
 <libraries>
 <library name="awqua_eagle_library">
 <packages>
-<package name="ADA4528">
+<package name="ADA4528-2">
 <wire x1="0" y1="0" x2="0" y2="3" width="0.127" layer="21"/>
 <wire x1="0" y1="3" x2="3" y2="3" width="0.127" layer="21"/>
 <wire x1="3" y1="3" x2="3" y2="0" width="0.127" layer="21"/>
 <wire x1="3" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<smd name="P$1" x="-0.6" y="2.45" dx="1.05" dy="0.33" layer="1"/>
-<smd name="P$2" x="-0.6" y="1.8" dx="1.05" dy="0.33" layer="1"/>
-<smd name="P$3" x="-0.6" y="1.15" dx="1.05" dy="0.33" layer="1"/>
-<smd name="P$4" x="-0.6" y="0.5" dx="1.05" dy="0.33" layer="1"/>
-<smd name="P$5" x="3.6" y="2.45" dx="1.05" dy="0.33" layer="1"/>
-<smd name="P$6" x="3.6" y="1.8" dx="1.05" dy="0.33" layer="1"/>
-<smd name="P$7" x="3.6" y="1.15" dx="1.05" dy="0.33" layer="1"/>
-<smd name="P$8" x="3.6" y="0.5" dx="1.05" dy="0.33" layer="1"/>
+<smd name="P$1" x="-0.7" y="2.45" dx="1" dy="0.3" layer="1"/>
+<smd name="P$2" x="-0.7" y="1.8" dx="1" dy="0.3" layer="1"/>
+<smd name="P$3" x="-0.7" y="1.15" dx="1" dy="0.3" layer="1"/>
+<smd name="P$4" x="-0.7" y="0.5" dx="1" dy="0.3" layer="1"/>
+<smd name="P$5" x="3.7" y="0.5" dx="1" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$6" x="3.7" y="1.15" dx="1" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$7" x="3.7" y="1.8" dx="1" dy="0.3" layer="1" rot="R180"/>
+<smd name="P$8" x="3.7" y="2.45" dx="1" dy="0.3" layer="1" rot="R180"/>
 </package>
 </packages>
 <symbols>
-<symbol name="ADA4528">
+<symbol name="ADA4528-2">
 <wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
 <wire x1="20.32" y1="0" x2="20.32" y2="12.7" width="0.254" layer="94"/>
 <wire x1="20.32" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
@@ -172,12 +172,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ADA4528">
+<deviceset name="ADA4528-2">
 <gates>
-<gate name="G$1" symbol="ADA4528" x="0" y="0"/>
+<gate name="G$1" symbol="ADA4528-2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ADA4528">
+<device name="" package="ADA4528-2">
 <connects>
 <connect gate="G$1" pin="+IN_A" pad="P$3"/>
 <connect gate="G$1" pin="+IN_B" pad="P$5"/>
@@ -1584,26 +1584,25 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </class>
 </classes>
 <parts>
-<part name="U$1" library="awqua_eagle_library" deviceset="ADA4528" device=""/>
-<part name="PDA_RF" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
-<part name="PDB_RF" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
-<part name="PDA_CF" library="SparkFun-Passives" deviceset="CAP" device="PTH1"/>
-<part name="PDB_CF" library="SparkFun-Passives" deviceset="CAP" device="PTH1"/>
-<part name="PDA_RD1" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
-<part name="PDA_RD2" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
-<part name="PDB_RD1" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
-<part name="PDB_RD2" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
+<part name="PDA_RF" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="PDB_RF" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="PDA_CF" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP"/>
+<part name="PDB_CF" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP"/>
+<part name="PDA_RD1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="PDA_RD2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="PDB_RD1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
+<part name="PDB_RD2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES"/>
 <part name="PDA" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="PDB" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="A_OUT_B" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="U$2" library="awqua_eagle_library" deviceset="ADA4528-2" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="25.4" y="20.32"/>
 <instance part="PDA_RF" gate="G$1" x="17.78" y="50.8"/>
 <instance part="PDB_RF" gate="G$1" x="53.34" y="50.8"/>
 <instance part="PDA_CF" gate="G$1" x="15.24" y="55.88" rot="R270"/>
@@ -1616,6 +1615,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="PDB" gate="G$1" x="-10.16" y="22.86"/>
 <instance part="JP3" gate="G$1" x="71.12" y="43.18" rot="R180"/>
 <instance part="A_OUT_B" gate="G$1" x="71.12" y="25.4" rot="R180"/>
+<instance part="U$2" gate="G$1" x="25.4" y="20.32"/>
 </instances>
 <busses>
 </busses>
@@ -1632,25 +1632,24 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <label x="43.18" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
 <wire x1="50.8" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="30.48" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="OUTB" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUT_B"/>
 <wire x1="50.8" y1="27.94" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="27.94" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="A_OUT_B" gate="G$1" pin="2"/>
+<pinref part="U$2" gate="G$1" pin="OUT_B"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="20.32" y1="22.86" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="17.78" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="22.86" x2="10.16" y2="22.86" width="0.1524" layer="91"/>
@@ -1666,6 +1665,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="60.96" y1="17.78" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="PDA_RD2" gate="G$1" pin="1"/>
@@ -1680,12 +1680,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </net>
 <net name="OUTA" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUT_A"/>
 <wire x1="20.32" y1="30.48" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="35.56" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="25.4" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="A_OUT_B" gate="G$1" pin="1"/>
+<pinref part="U$2" gate="G$1" pin="OUT_A"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -1695,8 +1695,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="15.24" y1="12.7" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
 <junction x="12.7" y="12.7"/>
 <wire x1="15.24" y1="12.7" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="+IN_A"/>
 <wire x1="15.24" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="+IN_A"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -1706,9 +1706,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="60.96" y1="12.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
 <junction x="58.42" y="12.7"/>
 <wire x1="60.96" y1="12.7" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="+IN_B"/>
 <wire x1="60.96" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="15.24" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="+IN_B"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1733,8 +1733,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <junction x="22.86" y="50.8"/>
 <wire x1="22.86" y1="45.72" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="45.72" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="-IN_A"/>
 <wire x1="12.7" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="-IN_A"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1760,7 +1760,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <junction x="58.42" y="50.8"/>
 <wire x1="58.42" y1="45.72" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="45.72" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="-IN_B"/>
+<pinref part="U$2" gate="G$1" pin="-IN_B"/>
 <wire x1="53.34" y1="25.4" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
