@@ -1488,8 +1488,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="ADC" gate="G$1" x="-7.62" y="40.64"/>
 <instance part="LED" gate="G$1" x="76.2" y="50.8" rot="R180"/>
 <instance part="POWER" gate="G$1" x="-7.62" y="63.5"/>
-<instance part="SUPPLY3" gate="G$1" x="0" y="66.04"/>
-<instance part="U$4" gate="G$1" x="0" y="60.96"/>
+<instance part="SUPPLY3" gate="G$1" x="0" y="71.12"/>
+<instance part="U$4" gate="G$1" x="0" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -1542,6 +1542,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <segment>
 <pinref part="POWER" gate="G$1" pin="2"/>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
+<wire x1="0" y1="71.12" x2="0" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -1572,6 +1573,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <segment>
 <pinref part="POWER" gate="G$1" pin="1"/>
 <pinref part="U$4" gate="G$1" pin="AGND"/>
+<wire x1="0" y1="58.42" x2="0" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
